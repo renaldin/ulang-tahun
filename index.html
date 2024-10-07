@@ -33,16 +33,22 @@
                height: auto;
                opacity: 0.5;
             }
+
+            audio {
+                  display: none;
+            }
          </style>
          <!-- Link to Font Awesome -->
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
       </head>
       <body>
-         <h1>Happy Birthday <i class="fas fa-heart"></i></h1>
+         <h1>Happy Birthday Ayy <i class="fas fa-heart"></i></h1>
          
          <!-- Gambar di tengah-tengah -->
          <img src="./1.jpg" alt="Background Image" class="background-image">
-      
+         <audio autoplay loop>
+            <source src="musik.mp3" type="audio/mpeg">
+        </audio>
          <script>
             // Kode JavaScript untuk fireworks tetap berjalan seperti sebelumnya
             var rnd = Math.random, flr = Math.floor;
